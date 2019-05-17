@@ -4,33 +4,39 @@
       <meta charset="utf-8"/>
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/main.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap" rel="stylesheet"> 
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap" rel="stylesheet">
         <title>Adam's Website</title>
     </head>
     <body>
       <header>
-        <div class="full-width">
-          <div class="half-width">
-            <h1>Cool Biz</h1>
-          </div>
-      <div class="half-width">
-        <nav>
-          <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <h2>Let's <span>code</span> something cool</h2>
-        </div>
-      </header>
+            <div class="full-width">
+                <div class="half-width">
+                    <h1>/Adam Lowe | web developer/;</h1>
+                </div>
+                <div class="half-width">
+                    <nav>
+                        <ul>
+                            <li><a href="#portfolio">portfolio</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    	</header>
+      <section id="code">
+    		<div class="full-width">
+    			<div class="half-width">
+    				<h1>let's <span>code</span> something cool</h1>
+    			</div>
+    		</div>
+    	</section>
       <main>
         <section id="portfolio">
           <div class="full-width">
             <h3>my portfolio</h3>
               <div class="half-width">
-                <img src="rogue-shot.png" alt="Rouge Pickings Website">
+                <img src="img/rogue-shot.png" alt="Rouge Pickings Website">
               </div>
               <div class="half-width">
                 <b>Rogue Pickings Website</b>
@@ -39,10 +45,10 @@
               </div>
           </div>
           <div class="full-width">
-              <div class="half-width">
-                <img src="jubilee-shot.png" alt="Jubilee Austen Website">
+              <div class="half-width" id="right">
+                <img src="img/jubilee-shot.png" alt="Jubilee Austen Website">
               </div>
-              <div class="half-width">
+              <div class="half-width" id="left">
                 <b>Jubilee Austen Project</b>
                 <p>HTML 5 & CSS Website</p>
                 <p>This is a sample website done for a fictional person named Jubilee Austen. It a simple one page website built with HTML and CSS.</p>
@@ -50,7 +56,7 @@
           </div>
           <div class="full-width">
               <div class="half-width">
-                <img src="holstee-thumbnail.png" alt="Holstee Project Photo">
+                <img src="img/holstee-thumbnail.png" alt="Holstee Project Photo">
               </div>
               <div class="half-width">
                 <b>Holstee Manifesto</b>
@@ -63,11 +69,11 @@
           <div class="full-width">
             <h3>about me</h3>
             <div class="half-width">
-              <b>I am passionate about programming</b>
+              <p><b>I am passionate about programming</b></p>
               <p>Determined, adaptable individual with a passion for technology, literature, and gaining new skills. Capable of detailed organization and quick to learn. Looking to find a career in Computer Programming.</p>
             </div>
             <div class="half-width">
-              <p>thisisemptyspace</p>
+              <p></p>
             </div>
           </div>
         </section>
@@ -75,12 +81,11 @@
           <div class="full-width">
             <b>let's connect</b>
             <div class="third-width">
-              <b>Hire me</b>
-              <p>555-555-5555</p>
-              <p>hello@help@omi.gmaoil</p>
+              <h3>Hire me</h3>
+              <p>555-555-5555<br><a id="email" href="mailto:hiamatmail@gmail.com">hiiamatmail@gmail.com</a></p>
             </div>
             <div class="third-width">
-              <b>Follow Me</b>
+              <h3>Follow Me</h3>
               <ul>
                 <li><a href="https://www.twitter.com"><img src="img/icon-twitter.png" alt="Twitter icon" /></a></li>
                 <li><a href="https://www.linkedin.com"><img src="img/icon-linkedin.png" alt="LinkedIn icon" /></a></li>
@@ -89,12 +94,13 @@
             </div>
             <div class="third-width">
               <b>Meet Me</b>
-              <p>Ottawa, CA</p>
+              <p>California, CA</p>
               <p>Lets meetup!</p>
             </div>
             <footer>
-              <p>Copyright 1018</p>
+              <p id="copyright">Copyright 1018|Adam Lowe</p>
             </footer>
       </main>
+    </section>
     </body>
 </html>
